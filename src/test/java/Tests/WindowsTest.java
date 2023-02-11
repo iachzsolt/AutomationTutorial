@@ -17,7 +17,7 @@ public class WindowsTest extends Hooks {
 
         RegisterPage registerPage = new RegisterPage(getDriver());
         registerPage.goToWindows();
-        testReport.attacheReport("pass", "Go to Windoes tab");
+        testReport.attacheReport("pass", "Go to Windows tab");
 
         WindowPage windowPage = new WindowPage(getDriver());
         windowPage.tabProcess();
